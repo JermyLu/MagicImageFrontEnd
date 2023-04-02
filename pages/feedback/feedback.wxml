@@ -1,0 +1,14 @@
+<view>
+  <view class="zan-font-16 my-ib" bindtap="myStarChoose">
+    <block wx:for="{{starMap}}">
+      <text wx:if="{{star>=index+1}}" style="padding-right: .5em" class="zan-c-red" data-star="{{index+1}}">★</text>
+      <text wx:if="{{star<index+1}}" style="padding-right: .5em" class="zan-c-gray-dark" data-star="{{index+1}}">☆</text>
+    </block>
+  </view>
+  <!--★-->
+  <!-- <text class="zan-c-gray-dark">{{starMap[star - 1]}}</text> -->
+  <textarea class="input" bindinput="getInput" placeholder="写下你对于这次图片生成体验的建议......" auto-focus="true" />
+  <!-- <text>{{suggestion}}</text> -->
+  <button class="submiBtn" type="primary" bindtap="feedback">提交反馈</button>
+  <!-- <text>{{absUrl}}</text> -->
+</view>

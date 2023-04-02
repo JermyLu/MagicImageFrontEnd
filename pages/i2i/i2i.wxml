@@ -1,0 +1,43 @@
+<!-- 2 * 4的排列方式 -->
+<view class="i2iContain">
+  <view class="each">
+    <image src="../../images/i2i/3D.png" style="width: 60px;height: 60px;"></image>
+    <!-- <button hover-class="click" bindtap="singleImageGen">3D漫画</button> -->
+    <view aria-role="button" class="weui-btn weui-btn_default" bindtap="singleImageGen" data-text="3D漫画">3D漫画</view>
+  </view>
+  <view class="each">
+    <image src="../../images/i2i/chaHua.png" style="width: 60px;height: 60px;"></image>
+    <view aria-role="button" class="weui-btn weui-btn_default" bindtap="singleImageGen"
+    data-text="插画">插画</view>
+  </view>
+  <view class="each">
+    <image src="../../images/i2i/manHua.png" style="width: 60px;height: 60px;"></image>
+    <view aria-role="button" class="weui-btn weui-btn_default" bindtap="singleImageGen"
+    data-text="漫画">漫画</view>
+  </view>
+  <view class="each">
+    <image src="../../images/i2i/shouHui.png" style="width: 60px;height: 60px;"></image>
+    <view aria-role="button" class="weui-btn weui-btn_default" bindtap="singleImageGen"
+    data-text="手绘">手绘</view>
+  </view>
+  <view class="each">
+    <image src="../../images/i2i/humanMeiFu.jpeg" style="width: 60px;height: 60px;"></image>
+    <view aria-role="button" class="weui-btn weui-btn_default" bindtap="singleImageGen"
+    data-text="人像美肤">人像美肤</view>
+  </view>
+  <view class="each">
+    <image src="../../images/i2i/humanMeiXing.jpeg" style="width: 60px;height: 60px;"></image>
+    <view aria-role="button" class="weui-btn weui-btn_default" bindtap="singleImageGen"
+    data-text="人像美型">人体美型</view>
+  </view>
+  <view class="each">
+    <image src="../../images/i2i/riMan.png" style="width: 60px;height: 60px;"></image>
+    <view aria-role="button" class="weui-btn weui-btn_default" bindtap="singleImageGen"
+    data-text="日漫">日漫</view>
+  </view>
+  <view class="each">
+    <image src="../../images/i2i/yiShu.png" style="width: 60px;height: 60px;"></image>
+    <view aria-role="button" class="weui-btn weui-btn_default" bindtap="singleImageGen"
+    data-text="艺术">艺术</view>
+  </view>
+</view>

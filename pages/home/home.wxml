@@ -1,0 +1,16 @@
+<swiper 
+	class="imageContainer" 
+	bindchange="handleChange" 
+	previous-margin="80rpx" 
+	next-margin="80rpx" 
+  current="{{centerItem}}"
+	circular 
+	autoplay
+>
+  <block wx:for="{{coverList}}" wx:key="{{id}}">
+    <swiper-item class="item">
+      <!-- <view class='mask' wx:if='{{ index != centerItem }}'></view> -->
+      <image class="itemImg {{'active'}}" src="{{item.url}}"></image>
+    </swiper-item>
+  </block>
+</swiper>

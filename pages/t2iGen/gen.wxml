@@ -1,0 +1,8 @@
+<view>
+  <!-- <text class="presentation">This is text2ImageGen Page, context is {{buttonVal}} 
+  & {{inputVal}} & {{promptVal}} & {{negativePromptVal}}. AI努力生成中, 请耐心等待一会儿~
+  </text> -->
+  <text class="presentation">{{title}}</text>
+  <image class="generated-image" mode="aspectFit" src="{{generatedImage}}" bindtap="clickSaveImg"></image>
+
+</view>

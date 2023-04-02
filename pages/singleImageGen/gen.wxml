@@ -1,0 +1,8 @@
+<view>
+  <!-- <text class="presentation">{{title}}</text> -->
+  <view aria-role="button" class="weui-btn weui-btn_default" bindtap="chooseImage">选择图片</view>
+  <image class="selected-image" mode="aspectFit" src="{{selectedImage}}"></image>
+  <view aria-role="button" class="weui-btn weui-btn_default" bindtap="image2Image">Image2Image</view>
+  <!-- 转换成功后,跳转新的页面进行保存、分享、反馈提交 -->
+  <image class="generated-image" mode="aspectFit" src="{{generatedImage}}" bindtap="clickSaveImg"></image>
+</view>

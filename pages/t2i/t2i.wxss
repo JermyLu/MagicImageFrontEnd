@@ -1,0 +1,133 @@
+.input_title {
+  font-family: Xingkai SC;
+  font-size: 30rpx;
+  color: black;
+  font-weight: bolder;
+}
+
+.prompt_title {
+  font-family: Xingkai SC;
+  font-size: 30rpx;
+  color: black;
+  font-weight: bolder;
+}
+.negativaPrompt_title {
+  font-family: Xingkai SC;
+  font-size: 30rpx;
+  color: black;
+  font-weight: bolder;
+}
+
+.input {
+  /* border: 1px solid black;
+  padding: 10rpx; */
+  margin-top: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 3px #000;
+  max-width: 450px;
+  min-width: 450px;
+  max-height: 80px;
+}
+
+.prompt {
+  /* border: 1px solid black;
+  padding: 10rpx; */
+  margin-top: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 3px #000;
+  max-width: 450px;
+  min-width: 450px;
+  max-height: 50px;
+}
+
+.negativePrompt {
+  /* border: 1px solid black;
+  padding: 10rpx; */
+  margin-top: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 3px #000;
+  max-width: 450px;
+  min-width: 450px;
+  max-height: 50px;
+}
+
+
+.style_title{
+  font-family: Xingkai SC;
+  font-size: 36rpx;
+  color: black;
+  font-weight: bolder;
+}
+.button_one{
+  width: 100%;
+}
+
+.one_1 { 
+  width: 50% !important; 
+  float:left;
+ }
+ .one_2 { 
+  width: 50% !important;
+  float:right;
+ }
+
+ .button_two{
+  width: 100%;
+}
+
+.two_1 { 
+  width: 50% !important; 
+  float:left;
+ }
+ .two_2 { 
+  width: 50% !important;
+  float:right;
+ }
+
+ .button_three{
+  width: 100%;
+}
+
+.three_1 { 
+  width: 50% !important; 
+  float:left;
+ }
+ .three_2 { 
+  width: 50% !important;
+  float:right;
+ }
+
+ .button_four{
+  width: 100%;
+}
+
+.four_1 { 
+  width: 50% !important; 
+  float:left;
+ }
+ .four_2 { 
+  width: 50% !important;
+  float:right;
+ }
+
+ .button_five{
+  width: 100%;
+}
+
+.five_1 { 
+  width: 50% !important; 
+  float:left;
+ }
+ .five_2 { 
+  width: 50% !important;
+  float:right;
+ }
+
+ .click {
+  background-color: goldenrod;
+}
+
+ .submiBtn{
+  margin-left: 90px !important;
+  margin-right: 90px !important;
+ }

@@ -1,0 +1,32 @@
+<!-- <view>
+  <text class='magic_image'>
+    <text class='thinking'>
+      <text class='info'>
+        Magic Technology是一家专注于以AI技术辅助人类执行专业技能的科技公司，旨在以AI技术便利&趣味化用户的使用体验。团队成员毕业于中国科学院大学、曼彻斯特大学、北京大学、北京邮电大学等知名高校，具有丰富的AI从业背景。
+      </text>
+      我们秉承简单、效率、质量的开发理念，欢迎志同道合的你来加入！！!
+    </text>
+    \n Magic Image以领先的AI绘画能力为你的照片增加一点魔法！
+    \n 联系人: 卢人杰
+    \n 联系方式: 15222365336 & lurenjie17@mails.ucas.ac.cn
+  </text>
+</view> -->
+
+<view>
+  <text class='magic_image'>
+    Magic Image以领先的AI绘画能力为你的照片增加一点魔法!
+    如果你对Magic Image也感兴趣的话, 请联系卢人杰: 15222365336.
+    如果你觉得Magic Image生成的图像质量还不错的话, 可以给一个打赏嘛? 
+    创业初期, 谢谢您的支持与鼓励!
+  </text>
+  <view class="schoollist">
+  <block wx:for="{{items}}" wx:key="item">
+    <view class="school-list">
+      <view class="school-list-info" index="{{index}}">
+        <image class="school-list-photo" src="{{item.imageUrl}}" mode="scaleToFill" show-menu-by-longpress="{{true}}"/>
+        <!-- <text class="school-list-desc">{{item.content}}</text> -->
+      </view>
+    </view>
+  </block>
+  </view>
+</view>

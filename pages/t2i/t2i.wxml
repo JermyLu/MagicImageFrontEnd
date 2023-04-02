@@ -1,0 +1,40 @@
+<!-- 输入框 -> 提示语 -> 负面提示语 -> 风格选择 -> 提交 -->
+<view>
+  <text class="input_title">Input</text>
+  <textarea class="input" bindinput="getInput" placeholder="写下你的创意......" auto-focus="true" />
+  <text class="prompt_title">Prompt</text>
+  <textarea class="prompt" bindinput="getPrompt" placeholder="正向提示语: 清晰、质感、4K....." auto-focus="true" />
+  <text class="negativaPrompt_title">Negative-Prompt</text>
+  <textarea class="negativePrompt" bindinput="getNegativePrompt" placeholder="负向提示语: 粗糙、模糊、低质....." auto-focus="true" />
+</view>
+
+<!-- 
+  bindtap: 定义点击响应函数, 在js中定义
+  data-text: 点击后获取button的值
+  hover-class: 定义点击后按钮样式配置参数
+ -->
+<view>
+  <text class="style_title">风格选择</text>
+  <view class="button_one">
+    <button class="one_1" hover-class="click" bindtap="getButton" data-text="艺术创想">艺术创想</button>
+    <button class="one_2" hover-class="click" bindtap="getButton" data-text="二次元">二次元</button>
+  </view>
+  <view class="button_two">
+    <button class="two_1" hover-class="click" bindtap="getButton" data-text="漫画风">漫画风</button>
+    <button class="two_2" hover-class="click" bindtap="getButton" data-text="中国画">中国画</button>
+  </view>
+  <view class="button_three">
+    <button class="three_1" hover-class="click" bindtap="getButton" data-text="概念插画">概念插画</button>
+    <button class="three_2" hover-class="click" bindtap="getButton" data-text="质感胶片">质感胶片</button>
+  </view>
+  <view class="button_four">
+    <button class="four_1" hover-class="click" bindtap="getButton" data-text="赛博朋克">赛博朋克</button>
+    <button class="four_2" hover-class="click" bindtap="getButton" data-text="梵高">梵高</button>
+  </view>
+  <view class="button_five">
+    <button class="five_1" hover-class="click" bindtap="getButton" data-text="超现实主义">超现实主义</button>
+    <button class="five_2" hover-class="click" bindtap="getButton" data-text="毕加索">毕加索</button>
+  </view>
+
+  <button class="submiBtn" type="primary" bindtap="t2iGen">Text2Image</button>
+</view>

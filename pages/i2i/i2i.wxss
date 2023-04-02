@@ -1,0 +1,21 @@
+.i2iContain{
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.each{
+ flex: 0 0 auto;
+  width: 50%;/* 25%表示[2 x 4], 50%表示[4 x 2]*/
+  text-align: center;
+  color: #797979;
+  padding: 40rpx 0;
+  font-size: 30rpx;
+}
+
+.click {
+  background-color: goldenrod;
+}

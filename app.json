@@ -1,0 +1,47 @@
+
+{
+  "pages": [
+    "pages/home/home",
+    "pages/i2i/i2i",
+    "pages/t2i/t2i",
+    "pages/about/about",
+    "pages/singleImageGen/gen",
+    "pages/t2iGen/gen",
+    "pages/feedback/feedback"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Magic Image"    
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/tabBar/index.jpeg",
+        "selectedIconPath": "images/tabBar/index-click.jpeg"
+      },
+      {
+        "pagePath": "pages/i2i/i2i",
+        "text": "image2image",
+        "iconPath": "images/tabBar/i2i.jpeg",
+        "selectedIconPath": "images/tabBar/i2i-click.jpeg"
+      },
+      {
+        "pagePath": "pages/t2i/t2i",
+        "text": "text2image",
+        "iconPath": "images/tabBar/t2i.jpeg",
+        "selectedIconPath": "images/tabBar/t2i-click.jpeg"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我们",
+        "iconPath": "images/tabBar/about.jpeg",
+        "selectedIconPath": "images/tabBar/about-click.jpeg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
+
