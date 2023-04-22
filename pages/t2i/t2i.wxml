@@ -16,23 +16,23 @@
 <view>
   <text class="style_title">风格选择</text>
   <view class="button_one">
-    <button class="one_1" hover-class="click" bindtap="getButton" data-text="艺术创想">艺术创想</button>
-    <button class="one_2" hover-class="click" bindtap="getButton" data-text="二次元">二次元</button>
+    <button class="one_1" hover-class="click" bindtap="getButton" data-text="插画">插画</button>
+    <button class="one_2" hover-class="click" bindtap="getButton" data-text="油画">油画</button>
   </view>
   <view class="button_two">
-    <button class="two_1" hover-class="click" bindtap="getButton" data-text="漫画风">漫画风</button>
-    <button class="two_2" hover-class="click" bindtap="getButton" data-text="中国画">中国画</button>
+    <button class="two_1" hover-class="click" bindtap="getButton" data-text="水彩">水彩</button>
+    <button class="two_2" hover-class="click" bindtap="getButton" data-text="素描">素描</button>
   </view>
   <view class="button_three">
-    <button class="three_1" hover-class="click" bindtap="getButton" data-text="概念插画">概念插画</button>
+    <button class="three_1" hover-class="click" bindtap="getButton" data-text="4K壁纸">4K壁纸</button>
     <button class="three_2" hover-class="click" bindtap="getButton" data-text="质感胶片">质感胶片</button>
   </view>
   <view class="button_four">
     <button class="four_1" hover-class="click" bindtap="getButton" data-text="赛博朋克">赛博朋克</button>
-    <button class="four_2" hover-class="click" bindtap="getButton" data-text="梵高">梵高</button>
+    <button class="four_2" hover-class="click" bindtap="getButton" data-text="超现实主义">超现实主义</button>
   </view>
   <view class="button_five">
-    <button class="five_1" hover-class="click" bindtap="getButton" data-text="超现实主义">超现实主义</button>
+    <button class="five_1" hover-class="click" bindtap="getButton" data-text="梵高">梵高</button>
     <button class="five_2" hover-class="click" bindtap="getButton" data-text="毕加索">毕加索</button>
   </view>
 
